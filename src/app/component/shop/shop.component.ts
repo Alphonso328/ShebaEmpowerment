@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Soap } from './Soap';
 import { Art } from './Art';
-// import { url } from 'inspector';
 
 @Component({
   selector: 'app-shop',
@@ -29,31 +28,31 @@ export class ShopComponent implements OnInit {
       {
         soapName: 'COCO',
         soapSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/soap/plate.jpg'
       },
       {
         soapName: 'Butter',
         soapSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/soap/purple.jpg'
       },
       {
         soapName: 'Vanilla',
         soapSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/soap/slice.jpg'
       },
       {
         soapName: 'Vanilla',
         soapSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/soap/slice.jpg'
       },
       {
         soapName: 'Vanilla',
         soapSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/soap/kit.jpg'
       },
     ];
@@ -68,31 +67,31 @@ export class ShopComponent implements OnInit {
       {
         artName: 'Earth',
         artSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/art/close.jpg'
       },
       {
         artName: 'Man',
         artSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/art/assorted.jpg'
       },
       {
         artName: 'Woman',
         artSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/art/beach.jpg'
       },
       {
         artName: 'Girl',
         artSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/art/brown.jpg'
       },
       {
         artName: 'Boy',
         artSize: 'Small, Regular, Large',
-        description: 'a whole lot thing ',
+        description: 'A whole Lot of Things ',
         image: './assets/img/art/trees.jpg'
       },
     ];

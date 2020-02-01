@@ -16,26 +16,15 @@
     </p>
 </section>
 
-<section class=" my-5">
-    <div class="container ">
+<section class=" my-5 center">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 mb-5">
-                <img class="rounded-circle " src="./assets/img/love.jpg" height="250px" width="300px" alt="">
-                <h2 class="card-title">Heal</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                <!-- <p class="card-footer">Lorem ipsum dolor sit amet.</p> -->
-            </div>
-            <div class="col-md-4">
-                <img class="rounded-circle " src="./assets/img/woman.jpg" height="250px" width="300px" alt="">
-                <h2 class="card-title">Rebuild</h2>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt maiores rem dolores</p>
-                <!-- <p class="card-footer">Lorem ipsum dolor sit amet.</p> -->
-            </div>
-            <div class="col-md-4">
-                <img class="rounded-circle " src="./assets/img/blue.jpg" height="250px" width="300px" alt="">
-                <h2 class="center">Grow</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                <!-- <p class="card-footer">Lorem ipsum dolor sit amet.</p> -->
+            <div *ngFor="let list of list" class="col-md-4 mb-5">
+                <img class="rounded-circle " [src]="list.image" height="250px" width="300px" alt="image">
+                <h2 class="card-title">
+                    {{list.listName}}
+                </h2>
+                <p class="card-text"> {{list.description}} </p>
             </div>
         </div>
     </div>
@@ -50,7 +39,3 @@
         illum architecto magni error, inventore officiis, harum in recusandae at eum exercitationem tenetur! Repudiandae hic eum voluptate rerum dolore repellat voluptatibus assumenda, asperiores animi provident eaque eveniet accusamus, qui recusandae
         odio magni, accusantium reprehenderit explicabo id nesciunt deleniti alias nam tenetur consequuntur? Non voluptates ut ipsa nesciunt repudiandae nisi? </p>
 </section>
-
-<div class="pimg5">
-
-</div>

@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<section id="contact_me" class="  text-center py-3">
+<section class=" text-center mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -15,47 +15,71 @@
                         <h4>Get More Info</h4>
                         <p>If a conformation email is not received within two days please call</p>
                         <h3>
-                            <fa name="envelope" size="2x"></fa>
+                            <i class="fa fa-envelope fa-2x"></i>
                         </h3>
                         <p>Sheba@outlook.com</p>
                         <h3>
-                            <fa name="tty" size="2x"></fa>
+                            <i class="fa fa-phone fa-2x"></i>
                         </h3>
                         <p>1(347)-489-4152</p>
                         <h3>
-                            <fa name="instagram" size="2x"></fa>
-                        </h3>
-                        <a href="">
+                            <a href="https://www.instagram.com/shebaaempowers/">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
                             <p>Sheba</p>
-                        </a>
+                        </h3>
                     </div>
                 </div>
-                <div class="clearfix"></div>
             </div>
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="text-center"> Enter Your Information</h3>
                         <hr>
-                        <form name="sentMessage" id="contactform" novalidate>
+                        <form name="sentMessage" id="contactform novalidate">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" id="name" class="form-control" placeholder="First Name">
+                                        <input type="text" id="name" class="form-control" placeholder="First Name" required minlength="2" [ngClass]="{'is-invalid':userFirstName.errors && userFirstName.touched}">
+                                        <div [hidden]="!userFirstName.errors?.required" class="invalid-feedback">
+                                            First Name Required
+                                        </div>
+
+                                        <div [hidden]="!userFirstName.errors?.minlength" class="invalid-feedback">
+                                            Must enter Min of 2 letter
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" id="lname" class="form-control" placeholder="Last Name">
-                                    </div>
-                                </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="Email" id="email" class="form-control" placeholder="Email">
+                                        <input type="text" id="lname" class="form-control" placeholder="Last Name" required minlength="2" [ngClass]="{'is-invalid':userLastName.errors && userLastName.touched}">
+                                        <div [hidden]="!userLastName.errors?.required" class="invalid-feedback">
+                                            Last Name Required
+                                        </div>
+
+                                        <div [hidden]="!userLastName.errors?.minlength" class="invalid-feedback">
+                                            Must enter Min of 2 letter
+                                        </div>
                                     </div>
                                 </div>
+
+
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="Email" id="email" class="form-control" placeholder="Email" required patter="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" [ngClass]="{'is-invalid':userEmail.errors && userFirstName.touched}">
+                                        <div [hidden]="!userFirstName.errors?.required" class="invalid-feedback">
+                                            Email Required
+                                        </div>
+
+                                        <div [hidden]="!userFirstName.errors?.pattern" class="invalid-feedback">
+                                            Email is not valid
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -66,14 +90,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="message" cols="30" rows="10">
-
-                                             </textarea>
+                                        <textarea class="form-control" id="message" rows="10">
+                                        </textarea>
                                     </div>
                                 </div>
                                 <div id="success"></div>
                                 <div class="col-md-12">
-                                    <input type="submit" class="btn btn-outline-secondary btn-block">
+                                    <input type="submit" value="Send" class="btn btn-outline-secondary btn-block" [disabled]="!userForm.form.valid">
                                 </div>
                             </div>
                         </form>

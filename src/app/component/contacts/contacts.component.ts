@@ -1,8 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 
 @Component({
@@ -12,13 +8,11 @@ import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
 })
 export class ContactsComponent implements OnInit {
 
-  faEnvelope = faEnvelope;
-  faPhone = faPhone;
-  faAddressBook = faAddressBook;
 
   constructor() { }
 
   ngOnInit() {
+  
   }
 
 }

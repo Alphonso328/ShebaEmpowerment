@@ -10,6 +10,7 @@ import { HomeComponent } from './component/home/home.component';
 import { ShopComponent } from './component/shop/shop.component';
 import { ContactsComponent } from './component/contacts/contacts.component';
 import { EventsComponent } from './component/events/events.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,15 @@ import { EventsComponent } from './component/events/events.component';
     HomeComponent,
     ShopComponent,
     ContactsComponent,
-    EventsComponent
+    EventsComponent,
+    FooterComponent
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
