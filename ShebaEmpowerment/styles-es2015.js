@@ -452,10 +452,10 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\shebaempowerment\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\shebaempowerment\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
-__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\shebaempowerment\node_modules\jarallax\dist\jarallax.css */"./node_modules/jarallax/dist/jarallax.css");
-module.exports = __webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\shebaempowerment\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\ShebaEmpowerment\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\ShebaEmpowerment\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+__webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\ShebaEmpowerment\node_modules\jarallax\dist\jarallax.css */"./node_modules/jarallax/dist/jarallax.css");
+module.exports = __webpack_require__(/*! C:\Users\Ricardo\Documents\Atom\ShebaEmpowerment\ShebaEmpowerment\src\styles.css */"./src/styles.css");
 
 
 /***/ })
