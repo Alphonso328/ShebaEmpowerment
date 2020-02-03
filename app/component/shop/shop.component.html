@@ -1,0 +1,67 @@
+<div class="pimg2">
+    <div class="ptext">
+        <span class="border">
+            Works Of My Paw
+        </span>
+    </div>
+</div>
+
+<section class="section section-dark">
+    <div class="container">
+        <h2 class="my-5 center"> Soaps</h2>
+        <div class="row">
+            <div *ngFor="let soap of soap" class="col-md-4 my-2 h5">
+                <img class="rounded-circle" [src]="soap.image" height="200px" width="200px" alt="Card image">
+                <h2 class="card-title">{{soap.soapName}}</h2>
+                <p class="card-text">{{ soap.description}}</p>
+                <p class="card-footer">{{soap.soapSize}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="pimg6">
+    <div class="ptext">
+        <span class=" border trans">
+            Artwork
+        </span>
+    </div>
+</div>
+
+<section class="section section-dark ">
+    <div class="row">
+        <div *ngFor="let art of art" class="col-md-4 my-2">
+            <img class="rounded-circle " [src]="art.image" height="200px" width="200px" alt="Card image cap">
+            <h2 class="card-title">{{art.artName}}</h2>
+            <p class="card-text">{{ art.description}}</p>
+            <p class="card-footer">{{art.artSize}}</p>
+        </div>
+        <img [src]="image" alt="">
+    </div>
+
+</section>
+
+
+
+<section class="section section-light">
+    <h2 class="py-4"> Sizes </h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam animi tempore officiis doloremque velit accusantium commodi cum necessitatibus distinctio, possimus nisi? Aut voluptatum, nostrum autem praesentium nihil repudiandae molestiae unde
+        doloremque eligendi magni porro commodi mollitia, dolor ea cum doloribus iste voluptatibus modi beatae consequuntur optio distinctio, officia a! Nemo quibusdam rem delectus expedita ipsum porro pariatur, quos vel obcaecati odit in reprehenderit
+    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="rounded-circle" src="./assets/img/soap/square.jpg" height="200px" width="200px" alt="">
+                <p class="card-title">Small</p>
+            </div>
+            <div class="col-md-4">
+                <img class="rounded-circle" src="./assets/img/soap/kit.jpg" height="200px" width="200px" alt="">
+                <p class="card-title">Medium</p>
+            </div>
+            <div class="col-md-4">
+                <img class="rounded-circle" src="./assets/img/soap/slice.jpg" height="200px" width="200px" alt="">
+                <p class="card-title">Large</p>
+            </div>
+        </div>
+    </div>
+</section>
