@@ -10,7 +10,7 @@ import { HomeComponent } from './component/home/home.component';
 import { ShopComponent } from './component/shop/shop.component';
 import { ContactsComponent } from './component/contacts/contacts.component';
 import { EventsComponent } from './component/events/events.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
