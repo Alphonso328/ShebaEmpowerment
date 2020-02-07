@@ -11,18 +11,18 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card p-4">
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h4>Get More Info</h4>
                         <p>If a conformation email is not received within two days please call</p>
-                        <h3>
+                        <h4>
                             <i class="fa fa-envelope fa-2x"></i>
-                        </h3>
-                        <p>Sheba@outlook.com</p>
-                        <h3>
+                            <p>Sheba@outlook.com</p>
+                        </h4>
+                        <h4 class="my-4">
                             <i class="fa fa-phone fa-2x"></i>
-                        </h3>
-                        <p>1(347)-489-4152</p>
-                        <h3>
+                            <p>1(347)-489-4152</p>
+                        </h4>
+                        <h3 class="my-4">
                             <a href="https://www.instagram.com/shebaaempowers/">
                                 <i class="fa fa-instagram fa-2x"></i>
                             </a>
@@ -40,28 +40,16 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" id="name" class="form-control" placeholder="First Name" required minlength="2" [ngClass]="{'is-invalid':userFirstName.errors && userFirstName.touched}">
-                                        <div [hidden]="!userFirstName.errors?.required" class="invalid-feedback">
-                                            First Name Required
-                                        </div>
+                                        <input type="text" id="name" class="form-control" placeholder="First Name" required>
 
-                                        <div [hidden]="!userFirstName.errors?.minlength" class="invalid-feedback">
-                                            Must enter Min of 2 letter
-                                        </div>
                                     </div>
                                 </div>
 
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" id="lname" class="form-control" placeholder="Last Name" required minlength="2" [ngClass]="{'is-invalid':userLastName.errors && userLastName.touched}">
-                                        <div [hidden]="!userLastName.errors?.required" class="invalid-feedback">
-                                            Last Name Required
-                                        </div>
+                                        <input type="text" id="lname" class="form-control" placeholder="Last Name" required>
 
-                                        <div [hidden]="!userLastName.errors?.minlength" class="invalid-feedback">
-                                            Must enter Min of 2 letter
-                                        </div>
                                     </div>
                                 </div>
 
@@ -69,14 +57,8 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="Email" id="email" class="form-control" placeholder="Email" required patter="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" [ngClass]="{'is-invalid':userEmail.errors && userFirstName.touched}">
-                                        <div [hidden]="!userFirstName.errors?.required" class="invalid-feedback">
-                                            Email Required
-                                        </div>
+                                        <input type="Email" id="email" class="form-control" placeholder="Email" required patter="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
 
-                                        <div [hidden]="!userFirstName.errors?.pattern" class="invalid-feedback">
-                                            Email is not valid
-                                        </div>
                                     </div>
                                 </div>
 
@@ -96,7 +78,7 @@
                                 </div>
                                 <div id="success"></div>
                                 <div class="col-md-12">
-                                    <input type="submit" value="Send" class="btn btn-outline-secondary btn-block" [disabled]="!userForm.form.valid">
+                                    <input type="submit" value="Send" class="btn btn-outline-secondary btn-block">
                                 </div>
                             </div>
                         </form>
