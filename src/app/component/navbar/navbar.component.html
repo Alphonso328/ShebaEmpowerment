@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
-        <a class="navbar-brand">
+        <a routerLink="/ShebaEmpowerment/" class="navbar-brand">
             <img src="./assets/img/gram.jpg" width="45" height="45" alt="">
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
@@ -8,16 +8,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item " [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-                    <a routerLink="/" class="nav-link">Home</a>
+                    <a routerLink="/ShebaEmpowerment/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-                    <a routerLink="/shop" class="nav-link">Shop</a>
+                    <a routerLink="/ShebaEmpowerment/shop" class="nav-link">Shop</a>
                 </li>
                 <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-                    <a routerLink="/events" class="nav-link">Events</a>
+                    <a routerLink="/ShebaEmpowerment/events" class="nav-link">Events</a>
                 </li>
                 <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
-                    <a routerLink="/contacts" class="nav-link">Contact</a>
+                    <a routerLink="/ShebaEmpowerment/contacts" class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
