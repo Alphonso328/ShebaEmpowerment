@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"pimg4\">\n    <div class=\"ptext\">\n        <span class=\"border \">\n            Contact\n        </span>\n    </div>\n</div>\n\n<section class=\" text-center mb-5\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card p-4\">\n                    <div class=\"card-body\">\n                        <h4>Get More Info</h4>\n                        <p>If a conformation email is not received within two days please call</p>\n                        <h3>\n                            <i class=\"fa fa-envelope fa-2x\"></i>\n                        </h3>\n                        <p>Sheba@outlook.com</p>\n                        <h3>\n                            <i class=\"fa fa-phone fa-2x\"></i>\n                        </h3>\n                        <p>1(347)-489-4152</p>\n                        <h3>\n                            <a href=\"https://www.instagram.com/shebaaempowers/\">\n                                <i class=\"fa fa-instagram fa-2x\"></i>\n                            </a>\n                            <p>Sheba</p>\n                        </h3>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-8\">\n                <div class=\"card\">\n                    <div class=\"card-body\">\n                        <h3 class=\"text-center\"> Enter Your Information</h3>\n                        <hr>\n                        <form name=\"sentMessage\" id=\"contactform novalidate\">\n                            <div class=\"row\">\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"name\" class=\"form-control\" placeholder=\"First Name\" required minlength=\"2\" [ngClass]=\"{'is-invalid':userFirstName.errors && userFirstName.touched}\">\n                                        <div [hidden]=\"!userFirstName.errors?.required\" class=\"invalid-feedback\">\n                                            First Name Required\n                                        </div>\n\n                                        <div [hidden]=\"!userFirstName.errors?.minlength\" class=\"invalid-feedback\">\n                                            Must enter Min of 2 letter\n                                        </div>\n                                    </div>\n                                </div>\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"lname\" class=\"form-control\" placeholder=\"Last Name\" required minlength=\"2\" [ngClass]=\"{'is-invalid':userLastName.errors && userLastName.touched}\">\n                                        <div [hidden]=\"!userLastName.errors?.required\" class=\"invalid-feedback\">\n                                            Last Name Required\n                                        </div>\n\n                                        <div [hidden]=\"!userLastName.errors?.minlength\" class=\"invalid-feedback\">\n                                            Must enter Min of 2 letter\n                                        </div>\n                                    </div>\n                                </div>\n\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"Email\" id=\"email\" class=\"form-control\" placeholder=\"Email\" required patter=\"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\" [ngClass]=\"{'is-invalid':userEmail.errors && userFirstName.touched}\">\n                                        <div [hidden]=\"!userFirstName.errors?.required\" class=\"invalid-feedback\">\n                                            Email Required\n                                        </div>\n\n                                        <div [hidden]=\"!userFirstName.errors?.pattern\" class=\"invalid-feedback\">\n                                            Email is not valid\n                                        </div>\n                                    </div>\n                                </div>\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"phone\" class=\"form-control\" placeholder=\"Phone Number\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"form-group\">\n                                        <textarea class=\"form-control\" id=\"message\" rows=\"10\">\n                                        </textarea>\n                                    </div>\n                                </div>\n                                <div id=\"success\"></div>\n                                <div class=\"col-md-12\">\n                                    <input type=\"submit\" value=\"Send\" class=\"btn btn-outline-secondary btn-block\" [disabled]=\"!userForm.form.valid\">\n                                </div>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"pimg4\">\n    <div class=\"ptext\">\n        <span class=\"border \">\n            Contact\n        </span>\n    </div>\n</div>\n\n<section class=\" text-center mb-5\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card p-4\">\n                    <div class=\"card-body \">\n                        <h4>Get More Info</h4>\n                        <p>If a conformation email is not received within two days please call</p>\n                        <h4>\n                            <i class=\"fa fa-envelope fa-2x\"></i>\n                            <p>Sheba@outlook.com</p>\n                        </h4>\n                        <h4 class=\"my-4\">\n                            <i class=\"fa fa-phone fa-2x\"></i>\n                            <p>1(347)-489-4152</p>\n                        </h4>\n                        <h3 class=\"my-4\">\n                            <a href=\"https://www.instagram.com/shebaaempowers/\">\n                                <i class=\"fa fa-instagram fa-2x\"></i>\n                            </a>\n                            <p>Sheba</p>\n                        </h3>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-8\">\n                <div class=\"card\">\n                    <div class=\"card-body\">\n                        <h3 class=\"text-center\"> Enter Your Information</h3>\n                        <hr>\n                        <form name=\"sentMessage\" id=\"contactform novalidate\">\n                            <div class=\"row\">\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"name\" class=\"form-control\" placeholder=\"First Name\" required>\n\n                                    </div>\n                                </div>\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"lname\" class=\"form-control\" placeholder=\"Last Name\" required>\n\n                                    </div>\n                                </div>\n\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"Email\" id=\"email\" class=\"form-control\" placeholder=\"Email\" required patter=\"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\">\n\n                                    </div>\n                                </div>\n\n\n                                <div class=\"col-md-6\">\n                                    <div class=\"form-group\">\n                                        <input type=\"text\" id=\"phone\" class=\"form-control\" placeholder=\"Phone Number\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"form-group\">\n                                        <textarea class=\"form-control\" id=\"message\" rows=\"10\">\n                                        </textarea>\n                                    </div>\n                                </div>\n                                <div id=\"success\"></div>\n                                <div class=\"col-md-12\">\n                                    <input type=\"submit\" value=\"Send\" class=\"btn btn-outline-secondary btn-block\">\n                                </div>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>");
 
 /***/ }),
 
@@ -59,6 +59,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"pimg5\">\n    <div class=\"ptext\">\n        <span class=\"border\">\n            Event's\n        </span>\n    </div>\n</div>\n\n\n<section class=\"section section-dark\">\n    <div class=\"container\">\n        <div class=\"row featurette\">\n            <div class=\"col-md-7\">\n                <h2 class=\"featurette-heading\">And lastly, this one. <span class=\"text-muted\">Checkmate.</span></h2>\n                <p class=\"lead\">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.\n                </p>\n            </div>\n            <div class=\"col-md-5\">\n                <img src=\"./assets/img/art/trees.jpg\" class=\"featurette-image img-fluid mx-auto\" height=\"500px\" width=\"500px\" alt=\"Generic placeholder image\">\n            </div>\n        </div>\n\n\n\n        <hr class=\"featurette-divider\">\n\n        <div class=\"row featurette\">\n            <div class=\"col-md-7 order-md-2\">\n                <h2 class=\"featurette-heading\"> oh yeah</h2>\n                <p class=\"lead\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum sequi odio possimus sapiente quam laboriosam culpa ab obcaecati! Neque?</p>\n            </div>\n            <div class=\"col-md-5 order-md-1\">\n                <img src=\"./assets/img/out.png\" alt=\"\" class=\"featurette-image img-fluid mx-auto \" height=\"500px\" width=\"500px\">\n            </div>\n        </div>\n\n        <hr class=\"featurette-divider\">\n\n        <div class=\"row featurette\">\n            <div class=\"col-md-7\">\n                <h2 class=\"featurette-heading\">And lastly, this one. <span class=\"text-muted\">Checkmate.</span></h2>\n                <p class=\"lead\">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.\n                </p>\n            </div>\n            <div class=\"col-md-5\">\n                <img src=\"./assets/img/art/brown.jpg\" class=\"featurette-image img-fluid mx-auto\" height=\"500px\" width=\"500px\" alt=\"Generic placeholder image\">\n            </div>\n        </div>\n\n        <hr class=\"featurette-divider\">\n\n    </div>\n</section>\n\n<div class=\"pimg7\">\n    <div class=\"ptext\">\n        <span class=\"border \">\n            Follow Me\n        </span>\n    </div>\n</div>\n\n\n<section class=\"section section-light\">\n    <h2 class=\"py-4\"> Instragram</h2>\n    <div class=\"container\">\n        <h2 class=\"py-4\"> Follow Me </h2>\n        <div class=\"col-md-12\">\n            <div id=\"instafeed\" class=\"instaimg row gallery\">\n\n            </div>\n        </div>\n    </div>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/footer/footer.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/component/footer/footer.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"section-dark text-center footer-nav py-4\">\n    <div class=\"container\">\n        <div class=\"row \">\n            <div class=\"col-md-4\">\n                <ul>\n                    <li>\n                        <h2>Navigation </h2>\n                    </li>\n                    <li class=\"nav-item \" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/\" class=\"h5\">Home</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/shop\" class=\"h5\">Shop</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/events\" class=\"h5\">Events</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/contacts\" class=\"h5\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"col-md-4\">\n\n                <ul>\n                    <li>\n                        <h2>Social Media</h2>\n                    </li>\n                    <li><a href='/Angels/cat/id/70' class=\"h5\">Facebook</a></li>\n                    <li><a href='https://twitter.com/shebaaempowers' class=\"h5\">Twitter</a></li>\n                    <li><a href='https://www.instagram.com/shebaaempowers/' class=\"h5\">Instagram</a></li>\n                    <!-- <li><a href='/Ladies-Accessories/cat/id/117' class=\"h5\" target=\"_blank\">Pintrest</a></li> -->\n                </ul>\n            </div>\n\n            <div class=\"col-md-4\">\n                <ul>\n                    <li>\n                        <h2>Contact</h2>\n                    </li>\n                    <li><a href='/shop/about-contact' class=\"h5\" itemprop=\"significantLink\">Contact</a></li>\n                    <li><a href='/faq.html' class=\"h5\" itemprop=\"significantLink\">FAQ</a></li>\n\n                </ul>\n            </div>\n        </div>\n\n        <!-- <section class=\"py-3\">\n            <div class=\"row\">\n                <div class=\"col-md-6 mx-auto\">\n                    <h2>\n                        CONNECT WITH ME\n                    </h2>\n                </div>\n\n                <div class=\"col-md-6 mx-auto social\">\n                    <a href=\"https://www.pinterest.com/paviliongift/\" class=\"generic-anchor\" target=\"_blank\" title=\"Pinterest\" itemprop=\"significantLink\"><i class=\"fa fa-pinterest\"></i></a>\n                    <a href=\"https://www.facebook.com/paviliongift\" class=\"generic-anchor\" target=\"_blank\" title=\"Facebook\" itemprop=\"significantLink\"><i class=\"fa fa-facebook\"></i></a>\n                    <a href=\"https://twitter.com/PavilionGiftCo\" class=\"generic-anchor\" target=\"_blank\" title=\"Twitter\" itemprop=\"significantLink\"><i class=\"fa fa-twitter\"></i></a>\n                    <a href=\"http://instagram.com/paviliongiftcompany\" class=\"generic-anchor\" target=\"_blank\" title=\"Instagram\" itemprop=\"significantLink\"><i class=\"fa fa-instagram\"></i></a>\n                    <a href=\"https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg\" class=\"generic-anchor\" target=\"_blank\" title=\"Youtube\" itemprop=\"significantLink\"><i class=\"fa fa-youtube\"></i></a>\n                    <a href=\"https://plus.google.com/+Paviliongift/posts\" class=\"generic-anchor\" target=\"_blank\" title=\"Google Plus\" itemprop=\"significantLink\"><i class=\"fa fa-google-plus\"></i></a>\n\n                </div>\n            </div>\n        </section> -->\n\n\n        <section class=\"footer-bottom-section row\">\n            <div class=\"h4\">\n                <i class=\"fa fa-copyright\" role=\"copyright\">\n\n      </i> 2020 Sheba Empowerment <address class=\"footer-address\" role=\"company address \"> Brookyln, NY</address><span class=\"footer-bottom-rights\"> - All Rights Reserved - </span>\n            </div>\n            <div class=\"h4 mx-auto\">\n                <a href=\"/terms-of-use.html\" class=\"generic-anchor\" rel=\"nofollow\">Terms</a> | <a href=\"/privacy-policy.html\" class=\"generic-anchor\" rel=\"nofollow\">Privacy</a>\n            </div>\n        </section>\n\n    </div>\n</footer>");
 
 /***/ }),
 
@@ -98,19 +111,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"pimg2\">\n    <div class=\"ptext\">\n        <span class=\"border\">\n            Works Of My Paw\n        </span>\n    </div>\n</div>\n\n<section class=\"section section-light\">\n    <div class=\"container\">\n        <h2 class=\"my-4 center\"> Soaps</h2>\n        <div class=\"row\">\n            <div *ngFor=\"let soap of soap\" class=\"col-md-4 my-2 h5\">\n                <img class=\"rounded-circle\" [src]=\"soap.image\" height=\"200px\" width=\"200px\" alt=\"Card image\">\n                <h2 class=\"card-title\">{{soap.soapName}}</h2>\n                <p class=\"card-text\">{{ soap.description}}</p>\n                <p class=\"card-footer\">{{soap.soapSize}}</p>\n            </div>\n        </div>\n    </div>\n</section>\n\n<div class=\"pimg6\">\n    <div class=\"ptext\">\n        <span class=\" border trans\">\n            Artwork\n        </span>\n    </div>\n</div>\n\n<section class=\"section section-light \">\n    <div class=\"row\">\n        <div *ngFor=\"let art of art\" class=\"col-md-4 my-2\">\n            <img class=\"rounded-circle \" [src]=\"art.image\" height=\"200px\" width=\"200px\" alt=\"Card image cap\">\n            <h2 class=\"card-title\">{{art.artName}}</h2>\n            <p class=\"card-text\">{{ art.description}}</p>\n            <p class=\"card-footer\">{{art.artSize}}</p>\n        </div>\n        <img [src]=\"image\" alt=\"\">\n    </div>\n\n</section>\n\n\n\n<section class=\"section section-light\">\n    <h2 class=\"py-4\"> Sizes </h2>\n    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam animi tempore officiis doloremque velit accusantium commodi cum necessitatibus distinctio, possimus nisi? Aut voluptatum, nostrum autem praesentium nihil repudiandae molestiae unde\n        doloremque eligendi magni porro commodi mollitia, dolor ea cum doloribus iste voluptatibus modi beatae consequuntur optio distinctio, officia a! Nemo quibusdam rem delectus expedita ipsum porro pariatur, quos vel obcaecati odit in reprehenderit\n    </p>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <img class=\"rounded-circle\" src=\"./assets/img/soap/square.jpg\" height=\"200px\" width=\"200px\" alt=\"\">\n                <p class=\"card-title\">Small</p>\n            </div>\n            <div class=\"col-md-4\">\n                <img class=\"rounded-circle\" src=\"./assets/img/soap/kit.jpg\" height=\"200px\" width=\"200px\" alt=\"\">\n                <p class=\"card-title\">Medium</p>\n            </div>\n            <div class=\"col-md-4\">\n                <img class=\"rounded-circle\" src=\"./assets/img/soap/slice.jpg\" height=\"200px\" width=\"200px\" alt=\"\">\n                <p class=\"card-title\">Large</p>\n            </div>\n        </div>\n    </div>\n</section>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
-/*!************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"section-dark text-center footer-nav py-4\">\n    <div class=\"container\">\n        <div class=\"row \">\n            <div class=\"col-md-4\">\n                <ul>\n                    <li>\n                        <h2>Navigation </h2>\n                    </li>\n                    <li class=\"nav-item \" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/\" class=\"h5\">Home</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/shop\" class=\"h5\">Shop</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/events\" class=\"h5\">Events</a>\n                    </li>\n                    <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact: true}\">\n                        <a routerLink=\"/contacts\" class=\"h5\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"col-md-4\">\n\n                <ul>\n                    <li>\n                        <h2>Social Media</h2>\n                    </li>\n                    <li><a href='/Angels/cat/id/70' class=\"h5\">Facebook</a></li>\n                    <li><a href='https://twitter.com/shebaaempowers' class=\"h5\">Twitter</a></li>\n                    <li><a href='https://www.instagram.com/shebaaempowers/' class=\"h5\">Instagram</a></li>\n                    <!-- <li><a href='/Ladies-Accessories/cat/id/117' class=\"h5\" target=\"_blank\">Pintrest</a></li> -->\n                </ul>\n            </div>\n\n            <div class=\"col-md-4\">\n                <ul>\n                    <li>\n                        <h2>Contact</h2>\n                    </li>\n                    <li><a href='/shop/about-contact' class=\"h5\" itemprop=\"significantLink\">Contact</a></li>\n                    <li><a href='/faq.html' class=\"h5\" itemprop=\"significantLink\">FAQ</a></li>\n\n                </ul>\n            </div>\n        </div>\n\n        <!-- <section class=\"py-3\">\n            <div class=\"row\">\n                <div class=\"col-md-6 mx-auto\">\n                    <h2>\n                        CONNECT WITH ME\n                    </h2>\n                </div>\n\n                <div class=\"col-md-6 mx-auto social\">\n                    <a href=\"https://www.pinterest.com/paviliongift/\" class=\"generic-anchor\" target=\"_blank\" title=\"Pinterest\" itemprop=\"significantLink\"><i class=\"fa fa-pinterest\"></i></a>\n                    <a href=\"https://www.facebook.com/paviliongift\" class=\"generic-anchor\" target=\"_blank\" title=\"Facebook\" itemprop=\"significantLink\"><i class=\"fa fa-facebook\"></i></a>\n                    <a href=\"https://twitter.com/PavilionGiftCo\" class=\"generic-anchor\" target=\"_blank\" title=\"Twitter\" itemprop=\"significantLink\"><i class=\"fa fa-twitter\"></i></a>\n                    <a href=\"http://instagram.com/paviliongiftcompany\" class=\"generic-anchor\" target=\"_blank\" title=\"Instagram\" itemprop=\"significantLink\"><i class=\"fa fa-instagram\"></i></a>\n                    <a href=\"https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg\" class=\"generic-anchor\" target=\"_blank\" title=\"Youtube\" itemprop=\"significantLink\"><i class=\"fa fa-youtube\"></i></a>\n                    <a href=\"https://plus.google.com/+Paviliongift/posts\" class=\"generic-anchor\" target=\"_blank\" title=\"Google Plus\" itemprop=\"significantLink\"><i class=\"fa fa-google-plus\"></i></a>\n\n                </div>\n            </div>\n        </section> -->\n\n\n        <section class=\"footer-bottom-section row\">\n            <div class=\"h4\">\n                <i class=\"fa fa-copyright\" role=\"copyright\">\n\n      </i> 2020 Sheba Empowerment <address class=\"footer-address\" role=\"company address \"> Brookyln, NY</address><span class=\"footer-bottom-rights\"> - All Rights Reserved - </span>\n            </div>\n            <div class=\"h4 mx-auto\">\n                <a href=\"/terms-of-use.html\" class=\"generic-anchor\" rel=\"nofollow\">Terms</a> | <a href=\"/privacy-policy.html\" class=\"generic-anchor\" rel=\"nofollow\">Privacy</a>\n            </div>\n        </section>\n\n    </div>\n</footer>");
 
 /***/ }),
 
@@ -455,7 +455,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _component_shop_shop_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./component/shop/shop.component */ "./src/app/component/shop/shop.component.ts");
 /* harmony import */ var _component_contacts_contacts_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./component/contacts/contacts.component */ "./src/app/component/contacts/contacts.component.ts");
 /* harmony import */ var _component_events_events_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./component/events/events.component */ "./src/app/component/events/events.component.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _component_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./component/footer/footer.component */ "./src/app/component/footer/footer.component.ts");
 
 
 
@@ -480,7 +480,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _component_shop_shop_component__WEBPACK_IMPORTED_MODULE_9__["ShopComponent"],
             _component_contacts_contacts_component__WEBPACK_IMPORTED_MODULE_10__["ContactsComponent"],
             _component_events_events_component__WEBPACK_IMPORTED_MODULE_11__["EventsComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"]
+            _component_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -580,6 +580,50 @@ EventsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./events.component.css */ "./src/app/component/events/events.component.css")).default]
     })
 ], EventsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/component/footer/footer.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/component/footer/footer.component.css ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/component/footer/footer.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/component/footer/footer.component.ts ***!
+  \******************************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FooterComponent = class FooterComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-footer',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/component/footer/footer.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.css */ "./src/app/component/footer/footer.component.css")).default]
+    })
+], FooterComponent);
 
 
 
@@ -806,50 +850,6 @@ ShopComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./shop.component.css */ "./src/app/component/shop/shop.component.css")).default]
     })
 ], ShopComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/footer/footer.component.css":
-/*!*********************************************!*\
-  !*** ./src/app/footer/footer.component.css ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJ9 */");
-
-/***/ }),
-
-/***/ "./src/app/footer/footer.component.ts":
-/*!********************************************!*\
-  !*** ./src/app/footer/footer.component.ts ***!
-  \********************************************/
-/*! exports provided: FooterComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let FooterComponent = class FooterComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-};
-FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-footer',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")).default]
-    })
-], FooterComponent);
 
 
 
