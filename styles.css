@@ -1,0 +1,246 @@
+body,
+html {
+    height: 98%;
+    margin: 0%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+}
+
+.pimg1 {
+    background-image: url(./assets/img/instagram.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(./assets/img/in.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.pimg3 {
+    background-image: url(./assets/img/gram.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 95%;
+}
+
+.pimg4 {
+    background-image: url(./assets/img/gram.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    min-height: 100%;
+}
+
+.pimg5 {
+    background-image: url(./assets/img/artist.PNG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: grayscale;
+    min-height: 95%;
+}
+
+.pimg6 {
+    background-image: url(./assets/img/brush.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 95%;
+}
+
+.pimg7 {
+    background-image: url(./assets/img/gram.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    min-height: 95%;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.social {
+    color: #ddd;
+    font-size: 2.5em;
+    padding-left: .1em;
+}
+
+a:hover,
+.fa {
+    color: #666;
+}
+
+a {
+    color: #ddd;
+}
+
+ul {
+    list-style: none
+}
+
+.footer-bottom-section {
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px
+}
+
+.footer-address {
+    display: inline;
+    font-style: normal
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .footer-list-header {
+        font-size: 2em
+    }
+    .footer-list-anchor {
+        font-size: 1.1em
+    }
+    .footer-social-connect {
+        font-size: 2.5em
+    }
+    .footer-social-overlap>a {
+        font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+        font-size: 1.3em
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    main {
+        font-size: 5em
+    }
+    .footer-list-top {
+        width: 100%
+    }
+    .footer-list-header {
+        font-size: 3em;
+    }
+    .footer-list-anchor {
+        font-size: 1.5em
+    }
+    .footer-social-section {
+        justify-content: center
+    }
+    .footer-social-section::after {
+        top: 25%
+    }
+    .footer-social-connect {
+        margin-bottom: 10px;
+        padding: 0 10px
+    }
+    .footer-social-overlap {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-social-icons-wrapper {
+        width: 100%;
+        padding: 0
+    }
+    .footer-social-overlap>a:not(:first-child) {
+        margin-left: 20px;
+    }
+    .footer-bottom-section {
+        padding: 0 5px 10px 5px
+    }
+    .footer-bottom-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-social-overlap>a {
+        margin: auto
+    }
+    .footer-social-overlap>a:not(:first-child) {
+        margin-left: 0;
+    }
+    .footer-bottom-rights {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer-list-header {
+        font-size: 2.2em
+    }
+    .footer-list-anchor {
+        font-size: 1.2em
+    }
+    .footer-social-connect {
+        font-size: 2.4em
+    }
+    .footer-social-overlap>a {
+        font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+        font-size: 1.3em
+    }
+} */
